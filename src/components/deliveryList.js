@@ -8,6 +8,7 @@ const useStyles = makeStyles({
         display: 'flex', 
         flexDirection: 'row',
         justifyContent: 'space-between' , 
+        flexWrap: 'wrap' ,
         marginTop: '12px' , 
         marginLeft: '10px',
         marginRight: '10px',

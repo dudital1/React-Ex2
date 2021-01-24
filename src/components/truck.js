@@ -3,11 +3,11 @@ import truck from '../images/mobel.svg';
 
 const styles = {
     boxContainer: {
-        position:'relative',
-        width: '40%',
+        position:'absolute',
+        width: '600px',
         left: '0px', 
         bottom:'0px',
-        top: '600px'
+        top: '700px'
     },
     img: {
         width: '130%'
