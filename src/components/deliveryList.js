@@ -7,8 +7,8 @@ const useStyles = makeStyles({
     list: {
         display: 'flex', 
         flexDirection: 'row',
+        alignItems: 'center',
         justifyContent: 'space-between' , 
-        flexWrap: 'wrap' ,
         marginTop: '12px' , 
         marginLeft: '10px',
         marginRight: '10px',
@@ -21,10 +21,11 @@ const useStyles = makeStyles({
     wrapper: {
         backgroundColor: 'white' ,
         borderRadius: 7,
-        width:'60%',
         marginLeft: '150px', 
         marginTop: '30px' , 
-        overflow: 'auto'
+        overflow: 'auto' ,
+        maxHeight:'450px',
+        minHeight:'450px'
     }
   });
 const DeliveryList = ({ deliveries, handleDelete, wichToUpdate }) => {

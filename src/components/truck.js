@@ -4,10 +4,10 @@ import truck from '../images/mobel.svg';
 const styles = {
     boxContainer: {
         position:'absolute',
-        width: '600px',
+        width: '40%',
         left: '0px', 
         bottom:'0px',
-        top: '700px'
+        top: '680px'
     },
     img: {
         width: '130%'
